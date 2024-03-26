@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.border{
+    display: flex;
+    padding: 2px;
+}
+.red{
+    width: 900px;
+    height:690px;
+    background-color: red;
+    border: 3px solid black;
+}
+p{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.green{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 690px;
+    background-color: green;
+    border: 3px solid black;
+}
+.top{
+    width: 230px;
+    height: 400px;  
+    background-color: blue;
+   
+}
+.topp{
+    width: 230px;
+    height: 400px;  
+    background-color: rgb(194, 187, 187);
+   
+}
+.toppp{
+    width: 230px;
+    height: 400px;  
+    background-color: rgb(202, 202, 32);
+   
+}
+
+

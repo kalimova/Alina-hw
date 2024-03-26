@@ -1,0 +1,84 @@
+body{
+    font-family: 'Libre Franklin', sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* только 3 свойства */
+}
+.hero{
+    background-image: url(./images/imagei.jpg);  
+    /* здесь лучше png */
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+}
+
+.link{
+margin-right: 40px;
+color: white;
+font-size: 14px;
+line-height: 24px;
+text-transform:capitalize;
+}
+.button-top{
+    color: #FFF;
+font-size: 14px;
+line-height: 24px;
+border-radius: 4px;
+border: 2px solid #FFF;
+padding: 11px 17px;
+}
+.wraper{
+    color: #FFF;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desk{
+    margin: 35px 0 60px;
+font-family: IBM Plex Mono, sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 24px; 
+}
+.title{
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 1px; 
+}
+.button{
+    color: #FFF;
+    border-radius: 4px;
+background: #5AB963;
+font-size: 16px;
+line-height: 30px;
+padding: 15px 30px;
+}

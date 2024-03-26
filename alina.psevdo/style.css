@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.gallery{
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-item {
+  height: 422px;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-item {
+  transition: 1s;
+}
+.gallery-item:hover:first-child {
+  transform: scale(1.3);
+}
+.gallery-item:hover:last-child {
+  transform: rotate(30deg);
+}
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="rotate.css">
+</head>
+<body>
+    <!-- <div class="wrapper">
+        <div class="box">
+            <img src="./images/image5.jpg" alt="">
+            <img class="second animate__animated animate__backOutUp" src="./images/image6.jpg" alt="">
+        </div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sequi.</p>
+            <img src="./images/image5.jpg" alt="">
+            <img class="second animate__animated animate__backOutUp" src="./images/image6.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="./images/image5.jpg" alt="">
+            <img class="second animate__animated animate__backOutUp" src="./images/image6.jpg" alt="">
+        </div>
+        <div class="box">
+            
+        </div>
+        <div class="box">
+            
+        </div>
+        <div class="box">
+            
+        </div>
+    </div> -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/image1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image5.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image6.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/image1.jpg" alt=""></div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 1000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            slidesPerView: 3, 
+            loop: true,
+          },
+        });
+      </script>
+
+</body>
+</html>

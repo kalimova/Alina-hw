@@ -1,0 +1,86 @@
+body{
+    font-family: 'Libre Franklin', sans-serif
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url('./images/image.jpg');
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.header-line{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color: #FFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-decoration: none;
+margin: 20px;
+}
+.cart{
+    position: relative;
+}
+.cart-item{
+    position: absolute;
+}
+.button{
+    width: 120px;
+height: 46px;
+border-radius: 4px;
+border: 2px solid #FFF;
+    background: none;
+    text-decoration: none;
+    color: #FFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+padding: 11px 17px;
+
+}
+/* .header-down{
+    position: relative;
+} */
+.header-title{
+    color: #FFF;
+text-align: center;
+font-size: 71px;
+font-weight: 700;
+line-height: 78px; 
+letter-spacing: 1px;
+text-align: center;
+}
+.header-sub{
+    color: #FFF;
+text-align: center;
+font-family: IBM Plex Mono, sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 24px;
+}
+.header-button{
+    width: 160px;
+height: 60px;
+border-radius: 4px;
+background: #5AB963;
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px; 
+text-decoration: none;
+padding: 15px 30px;
+}
